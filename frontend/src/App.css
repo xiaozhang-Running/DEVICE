@@ -1,0 +1,36 @@
+.ant-layout-header {
+  background: #1890ff;
+  padding: 0 24px;
+}
+
+.ant-layout-sider {
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.ant-menu {
+  height: 100%;
+  border-right: none;
+}
+
+.ant-layout-content {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+  .ant-layout {
+    flex-direction: column;
+  }
+  
+  .ant-layout-sider {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    height: auto;
+  }
+  
+  .ant-layout-content {
+    margin: 16px !important;
+  }
+}

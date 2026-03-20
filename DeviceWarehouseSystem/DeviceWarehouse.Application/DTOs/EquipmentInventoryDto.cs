@@ -1,0 +1,1 @@
+namespace DeviceWarehouse.Application.DTOs;
